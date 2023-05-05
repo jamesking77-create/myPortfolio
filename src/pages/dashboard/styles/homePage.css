@@ -1,0 +1,282 @@
+.h-main-container{
+    /* border: solid 2pt red; */
+    height: 200vh;
+    background-image: url(../../../assets/images/cedric-letsch-raNGlrn5JRI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 1800px 1000px;
+  
+   
+}
+
+.h-main-container-inner{
+    height: 200vh;
+    background-color: rgba(0, 0, 0, 0.915);
+    
+}
+
+.topnav{
+    /* border: solid 2pt red;  */
+    height: 5%;
+    display: flex; 
+}
+
+.whitespace{
+    /* border: solid 2pt red;   */
+    padding: 2%;
+    width: 80%;
+    font-size:20pt;
+    color: white;
+    
+}
+
+.portfolio{
+    float: right;
+    margin: 1.5%;
+    list-style: none;
+    text-align: center;
+    height: 40%;
+    width: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20pt;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.portfolio:hover{
+
+    /* border: solid 2pt red;  */
+    margin-left: 3%;
+    color: rgba(255, 255, 255, 0.178);
+    -webkit-transition: all .4s ease-in-out;
+}
+
+.sayhello{
+    float: right;
+    margin: 1.5%;
+    border: solid 1pt #F9B339; 
+    list-style: none;
+    text-align: center;
+    height: 40%;
+    width: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20pt;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+.sayhello:hover{
+
+    /* border: solid 2pt red;  */
+    margin-right: 2%;
+    color: rgba(255, 255, 255, 0.178);
+    -webkit-transition: all .4s ease-in-out;
+    border: solid 1pt rgba(255, 255, 255, 0); 
+}
+
+.h-page-body1{
+
+    border: solid 2pt rgba(0, 128, 0, 0); 
+    height: 45%;
+   
+}
+
+
+.circle1{
+     margin-top: 16%;
+     margin-left:40%;
+     border-radius: 100%; 
+     width: 20%;
+     height: 40%;
+     background-color: rgba(255, 255, 255, 0.069);
+     filter: blur(1px);
+     justify-content: center;
+     padding: 1%;
+     transition: all 1s ease;
+     animation-name: trans;
+     animation-iteration-count: infinite;
+     -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    animation-name: trans;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    font-size: 30px;
+}
+
+.circle1:hover{
+    background-position: 100% 0;
+    /* moz-transition: all .4s ease-in-out; */
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.1);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes trans {
+    75%{
+      transform: scale(1.1);
+  }
+}
+
+
+
+.circle2{
+    margin:9%;
+    border-radius: 100%; 
+    width: 80%;
+    height: 80%;
+    background-color: rgba(255, 255, 255, 0.115);
+    padding: 1%;
+    transition: all 1s ease;
+    animation-name: trans;
+    animation-iteration-count: infinite;
+    -o-transition: all .4s ease-in-out;
+   -webkit-transition: all .4s ease-in-out;
+   transition: all .4s ease-in-out;
+   animation-name: trans;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   font-size: 30px;
+}
+
+.circle2:hover{
+    background-position: 100% 0;
+    /* moz-transition: all .4s ease-in-out; */
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.1);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.circle3{
+   
+    margin:9%;
+    border-radius: 100%; 
+    width: 80%;
+    height: 80%;
+    border:solid 3pt  #FCA311;
+    transition: all 1s ease;
+    animation-name: trans;
+    animation-iteration-count: infinite;
+    -o-transition: all .4s ease-in-out;
+   -webkit-transition: all .4s ease-in-out;
+   transition: all .4s ease-in-out;
+   animation-name: trans;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   font-size: 30px;
+   
+}
+
+
+.circle3:hover{
+    background-position: 100% 0;
+    /* moz-transition: all .4s ease-in-out; */
+    -o-transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out;
+    transition: all 1.5s ease-in-out;
+    transform: scale(1.1);
+    border:solid 3pt rgba(255, 255, 255, 0.214);
+   
+}
+
+.circle4{
+   
+    margin:8.9%;
+    border-radius: 100%; 
+    width: 80%;
+    height: 80%;
+    background-color: rgba(255, 255, 255, 0.176);
+    transition: all 1s ease;
+    animation-name: trans;
+    animation-iteration-count: infinite;
+    -o-transition: all .4s ease-in-out;
+   -webkit-transition: all .4s ease-in-out;
+   transition: all .4s ease-in-out;
+   animation-name: trans;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   font-size: 100px;
+   color: rgba(255, 255, 255, 0.52);
+   padding-top: 3%;
+   
+}
+
+.check{
+    margin-top: 5%;
+    width: 70%;
+    margin-left: 15.5%;
+    font-size: 50px;
+    text-align: center;
+    color: #ffffff8f;
+    animation-name: trans;
+    animation-iteration-count: infinite;
+    -o-transition: all .4s ease-in-out;
+   -webkit-transition: all .4s ease-in-out;
+   transition: all .4s ease-in-out;
+   animation-name: trans;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   cursor: pointer;
+    
+}
+
+.check:hover{
+    margin-top: 3%;
+    color: #ffffff00;
+}
+
+
+
+.h-page-body2{
+    /* border: solid 2pt yellow;  */
+    height: 45%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+}
+
+.box1{
+    margin: 5%;
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    height: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 1px 2px rgba(100,100,100,100);
+
+}
+
+.box2{
+    margin: 5%;
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    height: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 1px 2px rgba(0,0,0,.2);
+}
+
+.box3{
+    margin: 5%;
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    height: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.664);
+
+}
+
+
+
+
+
+
+
+
+
+

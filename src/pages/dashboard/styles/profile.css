@@ -1,0 +1,189 @@
+
+* {
+   box-sizing: border-box;
+ }
+
+
+.mc{
+    height: 100vh;
+    background-image: url(../../../assets/images/mydesk.jpg);
+    background-size: 1500px;
+    overflow: hidden;
+}
+
+.upper-container{
+    height: 100% ;
+    border: solid 2pt transparent;
+    background-color: rgba(0, 0, 0, 0.767);
+   
+}
+
+
+
+.protopnav{
+   list-style: none;
+   color: white;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 20px;
+   display: flex;
+   /* border: solid 2pt red; */
+   height: 10%;
+    
+}
+
+
+
+.protopnav p{
+  margin-left: 10%;
+}
+
+
+
+
+
+
+.prosayhello{
+   float: right;
+   margin: 1.5%;
+   /* border: solid 1pt #F9B339;  */
+   list-style: none;
+   text-align: center;
+   height: 40%;
+   width: 15%;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 15pt;
+   border-radius: 8px;
+   color: white;
+   cursor: pointer;
+}
+
+
+.lower-container{
+    height: 58.5% ;
+    border: solid 2pt rgba(255, 0, 0, 0);
+}
+
+
+.circle{
+    height: 22%;
+    width: 12%;
+    border: solid 4pt rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-left: 44%;
+    margin-top: 2%;
+    background-image: url(../../../assets/images/WhatsApp\ Image\ 2023-06-06\ at\ 1.07.45\ PM.jpg);
+    background-size: 140px;
+    box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.24);
+}
+
+.profile-container{
+   height: 65%;
+   margin-top: 33%;
+   width: 80%;
+   margin-left: 10%;
+   border-radius: 12px;
+   background-color: rgba(235, 235, 235, 0.486);
+   color: white;
+   border: solid 2pt transparent;
+   box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.24);
+   transition: all ease-in-out 1.6s;
+   
+}
+
+
+.profile-container h3{
+    margin-top: 5%;
+   
+ }
+
+
+ .technologies{
+    /* border: solid 2pt red; */
+    height: 20%;
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+
+ .technologies div{
+    height: 100%;
+    width: 5%;
+    background-color: #FCA311;;
+    border-radius: 4px;
+    box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.24);
+    margin-top: 0%;
+    margin-right: 6%;
+
+ }
+
+ .technologies div img{
+    height: 70%;
+    margin-top: 15%;
+ 
+ }
+
+ .techs{
+    margin-top: 0%;
+ }
+
+
+ .techword{
+   /* border: solid 2pt red; */
+   height: 20%;
+   display: flex;
+   
+
+ }
+
+ .word1{
+   margin-left: 19%;
+ }
+ 
+ .word2{
+   margin-left: 25.5%;
+ }
+
+ .word3{
+   margin-left: 24%;
+ }
+
+ .prowhitespace{
+   font-size: 50px;
+   margin-left: 5%;
+   cursor: pointer;
+ }
+
+ .prowhitespace:hover{
+
+
+   color: rgba(255, 255, 255, 0.178);
+   -webkit-transition: all .4s ease-in-out;
+   
+}
+
+
+
+ .prosayhello{
+   float: right;
+   margin-top: 1.5%;
+   margin-left: 75%;
+   /* border: solid 1pt #F9B339;  */
+   list-style: none;
+   text-align: center;
+   height: 40%;
+   width: 15%;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 15pt;
+   border-radius: 8px;
+   color: white;
+   cursor: pointer;
+
+}
+
+.prosayhello:hover{
+
+  
+   color: rgba(255, 255, 255, 0.178);
+   -webkit-transition: all .4s ease-in-out;
+   
+}

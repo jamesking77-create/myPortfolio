@@ -11,6 +11,8 @@ import js from "../../../assets/images/java-script.png";
 import behance from "../../../assets/images/behance.png";
 import dribble from "../../../assets/images/dribble (1).png";
 import discord from "../../../assets/images/discord.png";
+import docs from '../../../assets/images/wired-outline-56-document.json'
+import  Lottie from "lottie-react";
 
 function HomePage() {
   function scrollToBottom(timedelay = 25) {
@@ -29,7 +31,7 @@ function HomePage() {
 
   function change() {
     document.querySelector(".h-body2").style.marginTop = "0%";
-    document.querySelector(".circle1").style.height = "40%";
+    // document.querySelector(".circle1").style.height = "40%";
     document.querySelector(".circle4").innerHTML = " ";
     document.querySelector(".h-page-body1").style.height = "20%";
     document.querySelector(".portfolio").innerHTML = "Profile";
@@ -65,6 +67,10 @@ function HomePage() {
     window.location.href = "page2";
   }
 
+  function showFeeback(){
+    window.location.href = "page3";
+  }
+
   return (
     
     <div className="h-main-container" style={{ height: "100vh" }}>
@@ -73,7 +79,7 @@ function HomePage() {
         <div className="topnav">
           <div className="whitespace"></div>
           <li className="portfolio" onClick={showProfile}></li>
-          <li className="sayhello"></li>
+          <li className="sayhello" onClick={showFeeback}></li>
         </div>
 
         <div className="h-page-body1">
@@ -84,12 +90,11 @@ function HomePage() {
           <div className="unlock" style={{ marginTop: "4%" }}>
             Open.
           </div>
-          <div className="circle1" style={{ height: "80%" }}>
+          <div className="circle1">
             <div className="circle2">
               <div className="circle3">
                 <div className="circle4" onClick={change}>
-                  {" "}
-                  &#128194;{" "}
+                      <Lottie animationData={docs}></Lottie>
                 </div>
               </div>
             </div>

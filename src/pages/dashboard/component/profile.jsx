@@ -3,7 +3,7 @@ import "../styles/profile.css";
 import java from "../../../assets/images/java.png";
 import python from "../../../assets/images/python-language-logotype.png";
 import js from "../../../assets/images/java-script.png";
-
+import mycv from '../../../assets/docs/JAMES ASUELIMEN.O (1).pdf';
 function Profiles() {
 
     function goToHome(){
@@ -56,6 +56,7 @@ function Profiles() {
               <div className="word2">Python</div>
               <div className="word3">J-Script</div>
             </div>
+           <a  className="dbutton" href={mycv} download="JAMES ASUELIMEN.O (1).pdf">Download resume</a>
           </div>
         </div>
       </div>

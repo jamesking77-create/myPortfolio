@@ -4,9 +4,7 @@
     background-image: url(../../../assets/images/mydesk.jpg);
     background-repeat: no-repeat;
     background-size: 1500px ;
-    
-  
-   
+     
 }
 
 
@@ -117,7 +115,9 @@
 .h-page-body1{
 
     /* border: solid 2pt rgb(255, 85, 0);  */
-    height: 45%;
+    height: 65%;
+    overflow: hidden;
+    
    
 }
 
@@ -125,24 +125,23 @@
 .circle1{
         /* border: solid 2pt red; */
      margin-top: 4%;
-     margin-left:39.5%;
-     border-radius: 100%; 
-     width: 20%;
-     /* height: 40%; */
+     margin-left:42%;
+     border-radius: 50%; 
+     width: 15%;
      background-color: rgba(0, 0, 0, 0.471);
-     filter: blur(1px);
-     justify-content: center;
-     padding: 1%;
      transition: all 1s ease;
      animation-name: trans;
-     animation-iteration-count: infinite;
-     -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
-    animation-name: trans;
     animation-duration: 2s;
     animation-iteration-count: infinite;
-    font-size: 30px;
+    padding: 1%;
+   
+}
+
+.circle1:after{
+    content: "";
+    padding-bottom: 0%;
+    display: block;
 }
 
 .circle1:hover{
@@ -165,23 +164,20 @@
 
 
 .circle2{
-    margin:9%;
-    border-radius: 100%; 
-    width: 80%;
-    height: 80%;
+   
+    border-radius: 50%; 
+    width: 100%;
     background-color: rgba(255, 255, 255, 0.115);
     padding: 1%;
-    transition: all 1s ease;
-    animation-name: trans;
-    animation-iteration-count: infinite;
-    -o-transition: all .4s ease-in-out;
-   -webkit-transition: all .4s ease-in-out;
-   transition: all .4s ease-in-out;
-   animation-name: trans;
-   animation-duration: 2s;
-   animation-iteration-count: infinite;
-   font-size: 30px;
+   
    cursor: pointer;
+ 
+}
+
+.circle2:after{
+    content: "";
+
+    display: block;
 }
 
 .circle2:hover{
@@ -196,10 +192,9 @@
 
 .circle3{
    
-    margin:8%;
-    border-radius: 100%; 
+    margin:10%;
+    border-radius: 50%; 
     width: 80%;
-    height: 80%;
     border:solid 3pt  #FCA311;
     transition: all 1s ease;
     animation-name: trans;
@@ -210,9 +205,14 @@
    animation-name: trans;
    animation-duration: 2s;
    animation-iteration-count: infinite;
-   font-size: 30px;
    cursor: pointer;
    
+}
+
+
+.circle3:after{
+    content: "";
+    display: block;
 }
 
 
@@ -229,10 +229,9 @@
 
 .circle4{
    
-    margin:10%;
+    margin:11%;
     border-radius: 100%; 
     width: 79%;
-    height: 79%;
     background-color: rgba(0, 0, 0, 0.308);
     transition: all 1s ease;
     animation-name: trans;
@@ -243,11 +242,17 @@
    animation-name: tilt-shaking;
    animation-duration: .5s;
    animation-iteration-count: infinite;
-   font-size: 75px;
+   font-size: 60px;
    color: rgba(255, 255, 255, 0.52);
    cursor: pointer;
    background-size: 10px;
-   
+   padding: 1px;
+}
+
+
+.circle4:after{
+    content: "";
+    display: block;
 }
 
 @keyframes tilt-shaking {
@@ -354,6 +359,9 @@
 }
 
 
+
+
+
 #w{
     color: #f0eeeed1;
     font-size: 30px;
@@ -425,50 +433,34 @@
     transform: scale(1.1);
 }
 
-.cc1{
+
+.cc1, .cc2, .cc3{
     background-color: #FCA311;
-    height: 80%;
-    width: 25%;
+   
     border-radius: 6px;
     margin: 2.5%;
 }
 
-
-.cc2{
-    background-color:#FCA311;
-    height: 80%;
-    width: 25%;
-    border-radius: 6px;
-    margin: 2.5%;
-}
-
-.cc3{
-    background-color: #FCA311;
-    height: 80%;
-    width: 25%;
-    border-radius: 6px;
-    margin: 2.5%;
-}
 
 #cw{
     height: 50%;
     font-size: 30px;
     margin-left: 7%;
-    margin-top: 5.5%;
+  
     color: black; 
     text-decoration: none; 
 }
 
 
 #be{
-    margin-top: 3%;
+   
     height: 54px;
     width: 54px;  
     text-decoration: none; 
 }
 
 #dr{
-    margin-top: 7%;
+  
     height: 50px;
     width: 50px; 
     text-decoration: none;  
@@ -677,7 +669,7 @@
 
 #git{
     
-    margin-top: 15%;
+ 
     height: 33px;
     text-decoration: none; 
 }
@@ -727,11 +719,9 @@
 #sc1{
     border-radius: 100%;
     background-color: #FCA311;
-    height: 80%;
-    width: 15%;
-    margin-left: 3%;
-    margin-top: 2%;
+    margin: 1%;
     text-decoration: none; 
+    padding: 2%;
 }
 
 .s2{
@@ -755,11 +745,9 @@
 #sc2{
     border-radius: 100%;
     background-color: #FCA311;
-    height: 80%;
-    width: 15%;
-    margin-left: 3%;
-    margin-top: 2%;
+    margin: 1%;
     text-decoration: none; 
+    padding: 2%;
 }
 
 .s3{
@@ -784,10 +772,7 @@
 #sc3{
     border-radius: 100%;
     background-color: #FCA311;
-    height: 80%;
-    width: 15%;
-    margin-left: 3%;
-    margin-top: 2%;
+    margin: 3%;
     align-items: center;
     text-decoration: none; 
 }
@@ -814,8 +799,6 @@
 #sc4{
     border-radius: 100%;
     background-color: #FCA311;
-    height: 80%;
-    width: 15%;
     margin-left: 3%;
     margin-top: 2%;
     text-decoration: none; 
@@ -831,173 +814,123 @@
 
 
 
-@media  (maax-width: 481px){
-
-
-
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .topnav, .h-page-body1, .h-body2, .h-page-body2 {
+        width: 100%;
+        overflow: scroll;
+      }
     
-.portfolio{
-    border: solid 1pt #F9B339; 
-    margin: 1.5%;
-    list-style: none;
-    text-align: center;
-    height: 45%;
-    width: 20%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 50%;
-    border-radius: 8px;
-    color: white;
-    cursor: pointer;
-    transition: all 1s ease;
+    .box1, .box2, .box3{
+        width: 90%;
+    }
 }
 
 
-
-.sayhello{
-    
-    margin: 1.5%;
-    border: solid 1pt #F9B339; 
-    list-style: none;
-    text-align: center;
-    height: 45%;
-    width: 30%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 50%;
-    border-radius: 8px;
-    color: white;
-    cursor: pointer;
-
-}
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .topnav, .h-page-body1, .h-body2, .h-page-body2 {
+      width: 100%;
+    }
 
     .h-page-body1{
+        border: solid 2pt red;
+        height: 80%;
 
-        border: solid 2pt rgb(255, 85, 0); 
-        height: 25%;
-       
     }
-
-
-
+    
 
     .circle1{
-        /* border: solid 2pt red; */
-     margin-top: 4%;
-     margin-left:27%;
-     border-radius: 100%; 
-     width: 45%;
-     height: 10%;
-     background-color: rgba(0, 0, 0, 0.471);
-     filter: blur(1px);
-     justify-content: center;
-     padding: 1%;
-     transition: all 1s ease;
-     animation-name: trans;
-     animation-iteration-count: infinite;
-     -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-    animation-name: trans;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    font-size: 30px;
-}
-
-
-.circle4{
-   
-    margin:10%;
-    border-radius: 100%; 
-    width: 79%;
-    height: 79%;
-    background-color: rgba(0, 0, 0, 0.308);
-    transition: all 1s ease;
-    animation-name: trans;
-    animation-iteration-count: infinite;
-    -o-transition: all .4s ease-in-out;
-   -webkit-transition: all .4s ease-in-out;
-   transition: all .4s ease-in-out;
-   animation-name: tilt-shaking;
-   animation-duration: .5s;
-   animation-iteration-count: infinite;
-   font-size: 45px;
-   color: rgba(255, 255, 255, 0.52);
-   cursor: pointer;
-   background-size: 10px;
-   
-}
-
-
-
-.h-body2{
-    /* border: solid 2pt rgb(0, 0, 255);  */
-        margin-top: 105%;
-       height: 90%; 
-       background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.466),rgba(0, 0, 0, 0.74), rgb(0, 0, 0));
-      
-         
-   }
-  
-    .h-page-body2{
-        border: solid 2pt rgb(0, 255, 68);
-        display:block;  
-        overflow-y: scroll;   
-    }
-
-    .box1{
-        /* margin: 5%; */
-        margin-top: 200%;
-    
-        margin-left: 4%;
-        background-color: rgba(255, 255, 255, 0.341);
-        width: 90%;
-        height: 70%;
-        border-radius: 10px;
-        box-shadow: 0px 1px 2px rgba(100,100,100,100);
-        opacity: 1;
-        transition: all ease-in-out 0.5s;
-        padding: 1%;
-    
-    }
-    
-    
-    .box2{
-        /* margin: 5%; */
-        margin-top: 40%;
-        margin-left: 4%;
-        background-color: rgba(255, 255, 255, 0.341);;
-        width: 90%;
-        height: 70%;
-        border-radius: 10px;
-        box-shadow: 0px 1px 2px rgba(0,0,0,.2);
-        opacity: 1;
-        transition: all ease-in-out 0.5s;
-        padding: 1%;
-       
-    }
-    
-    .box3{
-        /* margin: 5%; */
-        margin-top: 40%;
-        margin-left: 4%;
-        background-color: rgba(255, 255, 255, 0.341);
-        width: 90%;
-        height: 70%;
-        border-radius: 10px;
-        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.664);
-        opacity: 1;
-        transition: all ease-in-out 0.5s;
-        padding: 1%;
+     
+        width: 30%;
+        margin-top: 20%;
+        margin-left: 35%;
         
     }
 
+  
+
+     
+
+    .h-page-body2{
+        display: block;
+        background-color: transparents;
+       
+    } 
+      .box1, .box2, .box3{
+        width: 90%;
+        height: 60%;
+    }
+
+    .box1{
+        margin-top: 200%;
+    }
+
+    .h-main-container{
+        /* border: solid 2pt red; */
+        height: 200vh;
+        background-image: url(../../../assets/images/mydesk.jpg);
+        background-repeat: no-repeat;
+        background-size: 2000px ;
+        overflow: hidden;
+         
+    }
+    
+
+   
+  }
+
+
+  @media only screen and (max-width:712px) {
+    /* For mobile phones: */
+    .topnav, .h-page-body1, .h-body2, .h-page-body2 {
+      width: 100%;
+    }
+
+    .h-page-body1{
+        border: solid 2pt red;
+        height: 80%;
+
+    }
+
+    .circle1{
+      margin-top: 20%;
+        
+    }
+
+     
+
+    .h-page-body2{
+        display: block;
+        background-color: transparents;
+       
+    } 
+      .box1, .box2, .box3{
+        width: 90%;
+    }
+
+
+    .cc1, .cc2, .cc3 ::after{
+    content: "";
+    padding-bottom: 0%;
+    display: block;
 }
 
 
+    .box1{
+        margin-top: 200%;
+    }
 
+    .h-main-container{
+        /* border: solid 2pt red; */
+        height: 200vh;
+        background-image: url(../../../assets/images/mydesk.jpg);
+        background-repeat: no-repeat;
+        background-size: 3000px ;
+        overflow: hidden;
+         
+    }
+    
 
-
-
-
-
-
-
+   
+  }

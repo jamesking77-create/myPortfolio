@@ -65,15 +65,20 @@
 
 
 .circle{
-    height: 22%;
     width: 12%;
     border: solid 4pt rgb(255, 255, 255);
     border-radius: 50%;
     margin-left: 44%;
-    margin-top: 2%;
+    margin-top: 1%;
     background-image: url(../../../assets/images/WhatsApp\ Image\ 2023-06-06\ at\ 1.07.45\ PM.jpg);
     background-size: 140px;
     box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.24);
+}
+
+.circle:after{
+   content: "";
+   padding-bottom: 100%;
+   display: block;
 }
 
 .profile-container{
@@ -140,11 +145,11 @@
  }
  
  .word2{
-   margin-left: 25.5%;
+   margin-left: 24.4%;
  }
 
  .word3{
-   margin-left: 24%;
+   margin-left: 23.3%;
  }
 
  .prowhitespace{
@@ -187,3 +192,17 @@
    -webkit-transition: all .4s ease-in-out;
    
 }
+
+
+.dbutton{
+   border: solid 7pt #d38810;
+   background-color: #d38810;
+   border-radius: 4px;
+   text-decoration: none; 
+   color: white;
+   font-size: large;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.24);
+
+}
+

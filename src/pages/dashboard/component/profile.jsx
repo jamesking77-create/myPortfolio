@@ -14,6 +14,10 @@ function Profiles() {
         document.getElementById('pfc').style.marginTop = '2%'
       }, 500);
 
+
+      function proSayHello(){
+        window.location.href = 'page3'
+      }
       
   return (
     <div className="mc">
@@ -22,7 +26,7 @@ function Profiles() {
         <div className="protopnav">
           <div className="prowhitespace" onClick={goToHome}>&#8592;</div>
 
-          <li className="prosayhello">say hello</li>
+          <li className="prosayhello" onClick={proSayHello}>say hello</li>
         </div>
 
         <div className="circle"></div>

@@ -76,7 +76,7 @@
 }
 
 .circle:after{
-   content: "";
+   content: "";      
    padding-bottom: 100%;
    display: block;
 }
@@ -136,6 +136,9 @@
    /* border: solid 2pt red; */
    height: 20%;
    display: flex;
+   justify-self: stretch;
+   justify-items: center;
+   gap: 10px;
    
 
  }
@@ -206,3 +209,205 @@
 
 }
 
+
+
+@media only screen and (max-width:500px) {
+
+   .mc{
+      background-size: 2000px;
+   }
+   .circle{
+      width: 40%;
+      margin-left: 30%;
+      background-size: 180px;
+   }
+
+
+   
+.protopnav{
+   list-style: none;
+   color: white;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 10px;
+   display: flex;
+   /* border: solid 2pt red; */
+   height: 10%;
+    
+}
+
+.prosayhello{
+   float: right;
+   margin-top: 4.5%;
+   margin-left: 10%;
+   border: solid 1pt #F9B339; 
+   list-style: none;
+   text-align: center;
+   height: 40%;
+   width: 45%;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 15pt;
+   border-radius: 8px;
+   color: white;
+   cursor: pointer;
+}
+
+
+.technologies div{
+   height: 100%;
+   width: 20%;
+   background-color: #FCA311;;
+   border-radius: 4px;
+   box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.24);
+   margin-top: 0%;
+   margin-right: 6%;
+
+}
+
+.techword{
+   color: transparent;
+}
+
+ .profile-container{
+   margin-top: 80%;
+ }
+
+
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:400px) {
+
+   .mc{
+      background-size: 2000px;
+   }
+   .circle{
+      width: 40%;
+      margin-left: 30%;
+      background-size: 180px; 
+   }
+
+
+   
+.protopnav{
+   list-style: none;
+   color: white;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 10px;
+   display: flex;
+   /* border: solid 2pt red; */
+   height: 10%;
+    
+}
+
+.prosayhello{
+   float: right;
+   margin-top: 4.5%;
+   margin-left: 10%;
+   border: solid 1pt #F9B339; 
+   list-style: none;
+   text-align: center;
+   height: 40%;
+   width: 45%;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 15pt;
+   border-radius: 8px;
+   color: white;
+   cursor: pointer;
+}
+
+
+.technologies div{
+   height: 100%;
+   width: 20%;
+   background-color: #FCA311;;
+   border-radius: 4px;
+   box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.24);
+   margin-top: 0%;
+   margin-right: 6%;
+
+}
+
+.techword{
+   color: transparent;
+}
+
+ .profile-container{
+   margin-top: 80%;
+ }
+
+
+}
+
+
+
+
+
+@media only screen and (max-width:800px) {
+
+   .mc{
+      background-size: 2000px;
+   }
+   .circle{
+      width: 40%;
+      margin-left: 30%;
+      background-size: 280px;
+   }
+
+
+   
+.protopnav{
+   list-style: none;
+   color: white;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 10px;
+   display: flex;
+   /* border: solid 2pt red; */
+   height: 10%;
+    
+}
+
+.prosayhello{
+   float: right;
+   margin-top: 4.5%;
+   margin-left: 10%;
+   border: solid 1pt #F9B339; 
+   list-style: none;
+   text-align: center;
+   height: 40%;
+   width: 45%;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 15pt;
+   border-radius: 8px;
+   color: white;
+   cursor: pointer;
+}
+
+
+.technologies div{
+   height: 100%;
+   width: 20%;
+   background-color: #FCA311;;
+   border-radius: 4px;
+   box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.24);
+   margin-top: 0%;
+   margin-right: 6%;
+
+}
+
+.techword{
+   color: transparent;
+}
+
+ .profile-container{
+   margin-top: 80%;
+ }
+
+
+}

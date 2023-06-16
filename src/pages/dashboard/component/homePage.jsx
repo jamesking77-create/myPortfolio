@@ -33,7 +33,7 @@ function HomePage() {
     document.querySelector(".h-body2").style.marginTop = "0%";
     // document.querySelector(".circle1").style.height = "40%";
     document.querySelector(".circle4").innerHTML = " ";
-    document.querySelector(".h-page-body1").style.height = "20%";
+    // document.querySelector(".h-page-body1").style.height = "20%";
     document.querySelector(".portfolio").innerHTML = "Profile";
     document.querySelector(".sayhello").innerHTML = "Say Hello";
     document.querySelector(".unlock").style.display = "none";
@@ -85,9 +85,9 @@ function HomePage() {
         <div className="h-page-body1">
           <p className="james">
             {" "}
-            HI i'm <span className="j">james</span>, welcome to my space.
+            HI, i'm <span className="j">james</span>, welcome to my space.
           </p>
-          <div className="unlock" style={{ marginTop: "4%" }}>
+          <div className="unlock">
             Open.
           </div>
           <div className="circle1">
@@ -197,9 +197,9 @@ function HomePage() {
                 <p id="w">Socials</p>
               </div>
               <div className="s1">
-                <div id="sc1">
+                
                   <img src={github} alt="" id="git" />
-                </div>
+               
                 <a
                   id="sw"
                   href="https://github.com/jamesking77-create"
@@ -210,9 +210,9 @@ function HomePage() {
               </div>
 
               <div className="s2">
-                <div id="sc2">
+              
                   <img src={linkedin} alt="" id="in" />
-                </div>
+               
                 <a
                   id="sw"
                   href="https://www.linkedin.com/in/jamesasuelimen77/"
@@ -223,9 +223,9 @@ function HomePage() {
               </div>
 
               <div className="s3">
-                <div id="sc3">
+               
                   <img src={tweeter} alt="" id="tw" />
-                </div>
+              
                 <a
                   id="sw"
                   href="https://twitter.com/JamesAsuelimen"
@@ -236,8 +236,8 @@ function HomePage() {
               </div>
 
               <div className="s4">
-                <div id="sc4">
-                  <img src={insta} alt="" id="tw" />
+                <div id="s4">
+                  <img src={insta} alt="" id="inst" />
                 </div>
                 <a
                   id="sw"

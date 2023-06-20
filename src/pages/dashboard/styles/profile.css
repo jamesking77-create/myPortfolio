@@ -64,20 +64,22 @@
 }
 
 
-.circle{
+.mydp{
     width: 12%;
     border: solid 4pt rgb(255, 255, 255);
-    border-radius: 50%;
-    margin-left: 44%;
+    border-radius: 20%;
+    margin-left: 1%;
     margin-top: 1%;
-    background-image: url(../../../assets/images/WhatsApp\ Image\ 2023-06-06\ at\ 1.07.45\ PM.jpg);
     background-size: 140px;
     box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.24);
+  
 }
 
-.circle:after{
+
+
+.mydp:after{
    content: "";      
-   padding-bottom: 100%;
+   padding-bottom: 0%;
    display: block;
 }
 
@@ -219,7 +221,7 @@
    .circle{
       width: 40%;
       margin-left: 30%;
-      background-size: 180px;
+      object-fit: contain;
    }
 
 
@@ -230,14 +232,13 @@
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-size: 10px;
    display: flex;
-   /* border: solid 2pt red; */
    height: 10%;
     
 }
 
 .prosayhello{
    float: right;
-   margin-top: 4.5%;
+   margin-top: 9.5%;
    margin-left: 10%;
    border: solid 1pt #F9B339; 
    list-style: none;
@@ -287,10 +288,11 @@
    .mc{
       background-size: 2000px;
    }
-   .circle{
-      width: 40%;
-      margin-left: 30%;
-      background-size: 180px; 
+   .mydp{
+      width: 30%;
+      border: solid 2pt whitesmoke;
+    
+     
    }
 
 
@@ -301,14 +303,13 @@
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-size: 10px;
    display: flex;
-   /* border: solid 2pt red; */
    height: 10%;
     
 }
 
 .prosayhello{
    float: right;
-   margin-top: 4.5%;
+   margin-top: 9.5%;
    margin-left: 10%;
    border: solid 1pt #F9B339; 
    list-style: none;
@@ -340,6 +341,8 @@
 
  .profile-container{
    margin-top: 80%;
+   font-size: small;
+   height: 55%;
  }
 
 

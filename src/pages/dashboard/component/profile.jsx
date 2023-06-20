@@ -4,6 +4,7 @@ import java from "../../../assets/images/java.png";
 import python from "../../../assets/images/python-language-logotype.png";
 import js from "../../../assets/images/java-script.png";
 import mycv from '../../../assets/docs/JAMES ASUELIMEN.O (1).pdf';
+import mypic from '../../../assets/images/WhatsApp Image 2023-06-06 at 1.07.45 PM.jpg'
 function Profiles() {
 
     function goToHome(){
@@ -29,7 +30,9 @@ function Profiles() {
           <li className="prosayhello" onClick={proSayHello}>say hello</li>
         </div>
 
-        <div className="circle"></div>
+      
+          <img src={mypic} alt="" className="mydp"/>
+        
 
         <div className="lower-container">
           <div className="profile-container" id="pfc">

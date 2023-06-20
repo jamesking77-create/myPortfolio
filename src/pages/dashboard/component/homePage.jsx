@@ -34,7 +34,7 @@ function HomePage() {
     // document.querySelector(".circle1").style.height = "40%";
     document.querySelector(".circle4").innerHTML = " ";
     // document.querySelector(".h-page-body1").style.height = "20%";
-    document.querySelector(".portfolio").innerHTML = "Profile";
+    document.querySelector(".portfolio").innerHTML = "  &#8594; Profile";
     document.querySelector(".sayhello").innerHTML = "Say Hello";
     document.querySelector(".unlock").style.display = "none";
     document.querySelector(".james").innerHTML = "Take a tour.";
@@ -85,7 +85,7 @@ function HomePage() {
         <div className="h-page-body1">
           <p className="james">
             {" "}
-            HI, i'm <span className="j">james</span>, welcome to my space.
+            HI, i'm <span className="j">james</span>, a software engineer, welcome to my space.
           </p>
           <div className="unlock">
             Open.
@@ -107,28 +107,17 @@ function HomePage() {
               <div className="collaborations" id="b-i">
                 <p id="w">collaborations</p>
               </div>
-              <div className="c1">
-                <div className="cc1">
-                  <img src={behance} alt="" id="be" />
-                </div>
-                <a
-                  id="cw"
-                  href="https://www.behance.net/jamesasuelimen"
-                  target={"_blank"}
-                >
-                  Behance
-                </a>
-              </div>
+            
               <div className="c2">
                 <div className="cc2">
-                  <img src={dribble} alt="" id="dr" />
+                  <img src={github} alt="" id="dr" />
                 </div>
                 <a
                   id="cw"
-                  href="https://dribbble.com/jamesking777"
+                  href="https://github.com/jamesking77-create"
                   target={"_blank"}
                 >
-                  Dribble
+                  Git-hub
                 </a>
               </div>
               <div className="c3">
@@ -143,6 +132,19 @@ function HomePage() {
                   Discord
                 </a>
               </div>
+              <div className="c1">
+                <div className="cc1">
+                  <img src={behance} alt="" id="be" />
+                </div>
+                <a
+                  id="cw"
+                  href="https://www.behance.net/jamesasuelimen"
+                  target={"_blank"}
+                >
+                  Behance
+                </a>
+              </div>
+
             </div>
 
             <div className="box2" id="box2">
@@ -151,43 +153,39 @@ function HomePage() {
               </div>
               <div className="r1" onTouchMoveCapture={move}>
                 <div className="darker">
-                  <div className="rc1">
+                  <a className="rc1" href="http://jamesking77-create.github.io/TicTacToe" style={{width: '100px'}}   target={"_blank"}>
                     <a
                       id="rw"
-                      href="http://jamesking77-create.github.io/TicTacToe"
+                      
                       target={"_blank"}
                     >
                       &#8594;
                     </a>
-                  </div>
+                  </a>
                 </div>
               </div>
 
               <div className="r2">
                 <div className="darker">
-                  <div className="rc2">
+                  <a className="rc2"   href="https://github.com/jamesking77-create/tweeters-pro"   target={"_blank"}>
                     <a
                       id="rw"
-                      href="https://github.com/jamesking77-create/tweeters-pro"
-                      target={"_blank"}
                     >
                       &#8594;
                     </a>
-                  </div>
+                  </a>
                 </div>
               </div>
 
               <div className="r3">
                 <div className="darker">
-                  <div className="rc3">
+                  <a className="rc3"  href="https://github.com/jamesking77-create/script"   target={"_blank"}>
                     <a
-                      id="rw"
-                      href="https://github.com/jamesking77-create/script"
-                      target={"_blank"}
+                      id="rw" 
                     >
                       &#8594;
                     </a>
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>
@@ -205,7 +203,7 @@ function HomePage() {
                   href="https://github.com/jamesking77-create"
                   target={"_blank"}
                 >
-                  Github
+                  Git-hub
                 </a>
               </div>
 

@@ -4,7 +4,10 @@ import Profiles from "./pages/dashboard/component/profile";
 import { SayHello } from "./pages/dashboard/component/sayHello";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
+
 function App() {
+
+  
   return (
     <div className="App">
       <Router>
